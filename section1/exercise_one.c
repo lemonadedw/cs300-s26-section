@@ -8,7 +8,7 @@ void increment_by_one(int* x) {
 
 int main() {
     int my_number = 1;
-    increment_by_one(my_number);
+    increment_by_one(&my_number);
 
     // my_number should be 2 now
     printf("my number is %d\n", my_number);
